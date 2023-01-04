@@ -1,0 +1,46 @@
+@media screen and (max-width: 800px) {
+    #banner>div {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    :root {
+        font-size: 16px;
+    }
+
+    .expensive,
+    .trending {
+        padding: 0;
+    }
+    #banner>div {
+        width: 100%;
+    }
+    #banner>div {
+        height: 300px;
+    }
+    footer {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+
+    footer>div {
+        height: auto;
+    }
+
+    .products-list .list-item {
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        font-size: 14px;
+    }
+
+    .topnav a.active::after {
+        width: 30%;
+    }
+
+}
